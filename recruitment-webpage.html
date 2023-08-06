@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Startup - Home</title>
+    <style>
+        .mid {
+            display: block;
+            margin-left: 20px;
+            height: 40px;
+            width: 600px;
+            padding-top: 11px;
+        }
+
+        nav {
+            padding-top: 10px;
+        }
+
+        nav li {
+            display: inline-block;
+            float: left;
+            padding: 1px 25px;
+            text-decoration: none;
+            font-size: 17.4px;
+            cursor: pointer;
+        }
+
+        nav li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+
+        }
+
+        nav li a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+
+
+        }
+
+        .right {
+
+            position: absolute;
+            right: 20px;
+            top: 4px;
+            display: inline-block;
+
+        }
+
+        .btn {
+            padding: 3px;
+            margin: 20px 8px;
+            background-color: #007bff;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #1b4068;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #014389;
+        }
+
+        .services-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .service {
+            width: 30%;
+            padding: 20px;
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="mid">
+            <b>
+                <nav class="nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </nav>
+            </b>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email Us</button>
+            <i class="fa fa-phone" style="font-size:48px;color:red"></i>
+        </div>
+        <div class="container">
+            <h1>Find your next top tech job in 1 week</h1>
+            <p>Your gateway to hiring top talent</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section class="container services-section" id="services">
+        <div class="service">
+            <span class="service-icon">👨‍💻</span>
+            <h2>Software Engineers</h2>
+            <p>We connect you with skilled software engineers from India and worldwide.</p>
+        </div>
+        <div class="service">
+            <span class="service-icon">📈</span>
+            <h2>Product Managers</h2>
+            <p>Hire experienced product managers who can lead your projects to success.</p>
+        </div>
+        <div class="service">
+            <span class="service-icon">📊</span>
+            <h2>Data Scientists</h2>
+            <p>Find data scientists who can analyze and unlock the potential of your data.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Recruitment Startup. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
